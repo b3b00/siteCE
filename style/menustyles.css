@@ -1,0 +1,751 @@
+
+/* stylesheet sperling.com */
+
+img {border: none !important;}
+
+html, body
+   {
+   margin:0;
+   padding:0;
+   }
+   
+body
+  {
+  font: normal 100% Geneva, Verdana, Trebuchet, sans-serif;
+  color:#333;
+  background-color: white;
+  }
+
+#header
+	{
+	width:100%;
+	height:138px;
+	background: url("http://www.sperling.com/css/seasons/winter.jpg") top left no-repeat;
+	background-color: #77AAFB;
+	}
+
+#header p
+	{
+	line-height: /*1.0*/1.2;
+	letter-spacing: -0.03em;
+	margin: 0;
+	padding-top: 20px;
+	color: #fff;
+	font-size: xx-large;        /* 220%;  */
+	text-align: center;
+	font-family: "Lucida Grande", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+	}
+
+#page
+	{
+	width: 99%;
+	margin: 0 auto 0 auto;
+	max-width: 60em;
+	min-width: 48.5em;		/* 776px; */
+	background-color: #fff;
+	/*border:1px solid red;*/
+	}
+	
+#container
+   {
+   background-color: white;
+   color:#333;
+   }
+   
+#wrapper
+   {
+   float: left;
+   width: 100%;
+   margin-left: -200px; 
+   }
+      
+#content
+   {
+   margin-left: 200px; 
+   background-image: url(/images/gifs/dotted_vertical.gif);
+   background-repeat: repeat-y;
+   background-position: right;
+   }
+      
+#content p
+   {
+   line-height: 1.4;
+   margin-left: 50px; 
+   margin-right: 20px; 
+   }
+
+#content ul
+	{
+	list-style: square;
+	margin-left: 50px;
+	margin-right: 20px;
+	}
+
+#content ol
+   {
+   margin-left: 50px;
+   margin-right: 20px;
+   }
+
+/*
+h1 for headlines
+h2 for bread crumbs
+h3 for second headlines
+h4 for sub-second headlines
+*/
+   
+#content h1,  #content h2, #content h3,  #content h4
+	{
+	margin-left: 40px;
+	padding-left: 45px;
+	line-height: 1.2;
+	color: #5375B0;  
+	text-align: left;
+	text-decoration: none;
+	}
+
+#content h1,  #content h3
+	{
+	background: url("../images/gifs/bird3.gif") top left no-repeat;
+	line-height: 2;			/* make room for the bird */
+	}
+
+#content h1
+	{
+	font-size: large; 
+	} 
+
+#content h2
+	{
+	margin-left: 0;
+	padding-left: 0;
+	font-size: medium; 
+	} 
+
+#content h3
+	{
+	font-size: medium; 
+	} 
+	   
+#content h4
+	{
+	font-size: medium;
+	padding-left: 10px;
+	} 
+
+#content h5
+	{
+	font-size: medium;
+	margin-left: 40px;
+	padding-left: 45px;
+	line-height: 1.2;
+	text-align: left;
+	text-decoration: none;
+	} 
+	             
+#sidebar
+	{
+	float: left;
+	width: 180px;        /* 180 */
+	/* border: 1px solid red; */
+	} 
+
+#sidebar h3
+	{
+	margin: 10px;
+	margin-top: 20px;
+	color: #5375B0;   
+	}
+   
+#footer
+   {
+   clear: both;
+   width: 100%;
+   padding-top:20px;
+   padding-bottom:20px;
+   text-align: center;
+   font-size: small;
+   color: #999;
+   }
+   
+#footer_bottom
+	{
+	color: #999;
+	border-top: 1px solid #77AAFB;   
+	}
+
+strong
+	{
+	font-size: medium;
+	font-style: normal;
+	font-weight: normal;
+	}
+      
+em
+	{
+	font-size: medium;
+	font-style: normal;
+	text-decoration:none;
+	font-weight:  bold;
+	color: #5375B0; 
+	}
+  
+ strong
+	{
+	font-size: medium;
+	font-style: normal;
+	text-decoration:none;
+	font-weight:  normal;
+	} 
+	
+ p
+	{
+	color: #0D0D0D;
+	font-size: medium;
+	font-style: normal;
+	line-height: 1.3;
+	display: block;
+	}
+
+.title
+	{
+	font-family: "Lucida Grande", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+	line-height: 1.3;	
+	}
+.r
+   {
+   color: red;
+   }
+   
+ .g
+   {
+   color: green;
+   }
+
+.b
+   {
+   color: blue;   
+   }
+ 
+ .red
+   {
+   color: red;
+   }
+   
+ .green
+   {
+   color: green;
+   }
+
+.blue
+   {
+   color: blue;   
+   }  
+    
+blockquote
+   {
+   background :  url("http://sperling.com/images/gifs/quotes.gif") no-repeat top left;
+   margin-left:100px;
+   margin-right:100px;
+   }
+
+blockquote p
+   {
+   font-style : italic;
+   color : #666;
+   line-height: 1.3;
+   }
+   
+.clear
+   {
+   clear: both;
+   }
+
+hr
+   {
+   clear: both;
+   margin-left: 50px;
+   width:200px;
+   }
+      
+.bluebox
+	{
+	margin-left: 50px;
+	margin-right: 20px;
+	border: 1px solid  #77aaf7;
+	background-color: #aeccf8;
+	background-color: #DDEAFF;
+	}
+
+.bluebox p
+   {
+   font-size: small;
+   font-style: normal;
+   text-decoration: none;
+   text-align: center;
+   color: #0D0D0D;
+   }
+
+.right
+	{
+   text-align: right;	
+	}
+
+.left
+	{
+   text-align: left;	
+	}
+	
+.center
+	{
+   text-align: center;	
+	}
+
+.bluebox img
+   {
+   text-align: center;
+   }               
+
+.left p
+   {
+   text-align: left;
+   }   
+   
+.centerinline
+	{
+	text-align : center;
+	}
+	
+.up
+   {
+   position: relative;
+   top: -50px;
+   z-index:1;
+   }
+
+.upword
+   {
+   position: relative;
+   right: 220px;
+   top: 0;
+   color: blue;
+   font-size: large;
+   z-index:100;
+   }
+   
+.webtips li
+	{
+	margin:1em;
+	margin-left: 0;
+	}
+  
+.tips
+	{
+	position: relative;
+	left: -3em;
+	top: 0;
+	}
+	 
+.list li
+	{
+	margin:1em;   
+	}
+
+.published
+	{
+	display: inline;
+	margin: 2em;
+	text-align: center;
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom:none;
+	background:url(../images/gifs/clip-bottom.png) right bottom no-repeat;
+	width:2.2em;
+	}
+
+.pub-month
+	{
+	float: left;
+	display:block;
+	font-size: small;
+	margin:0;
+	padding:0;
+	padding-top:12px;
+	background:url(http://sperling.com/images/gifs/clip-top.png) center top repeat-x;
+	}
+
+.pub-date
+	{
+	float: left;
+	display:block;
+	font-size:large;
+	margin:0;
+	padding:0;
+	}
+
+.address
+	{
+	line-height: 1.3;
+	list-style: none;
+	}
+   
+#article p
+	{
+	font-size: 1em;
+	line-height: /*1.2*/1.35;
+	/*margin-bottom: 35px;*/
+	margin: 0 30px 40px 90px;	/* d */
+	/*font-family: verdana, arial, helvetica, sans-serif;*/
+	}
+
+#article ul li
+	{
+	margin: 0 80px 20px 70px;		/* d */
+	list-style: square;	/* d */
+	}
+
+#article ul li
+	{
+	margin: 0;
+	margin-left: -1em;
+	margin-bottom: 1em;
+	list-style: square;	/* d */
+	}
+   
+#article h2
+	{	
+	margin: 0 0 0 45px;				/* d */
+	padding: 40px 0 20px 0;		/* d */
+	width: 11em;						/* d */
+	line-height: 1.2;
+	color: #5375B0;
+
+	font-size: 150%	/*add*/;
+	font-size: large;
+	text-align: left;
+	}   
+   
+  #article h3
+	{
+	background: url("../images/gifs/bird3.gif") top left no-repeat;
+	height: 30px;
+	margin-left: 40px;
+	padding-left: 45px;
+	line-height: 1.1;			/* d */
+	margin-right: 10px;		/* d */
+	color: #5375B0;
+	font-size: large;
+	text-align: left;
+	text-transform:capitalize;
+	}   
+   
+b
+	{
+	font-weight: normal;
+	}
+	      
+/* ---=== floats ===--- */
+
+.floatR
+   {
+   float: right;
+   margin-left: 1em;
+   /*margin-right: 1em;*/
+	margin-right: 4em;
+   }
+
+.floatL
+   {
+   float: left;
+   margin-left: 1em;
+   margin-right: 1em;
+   }
+
+.floatleft
+   {
+   float: left;
+   margin:0;
+   margin-right: 1em;
+   margin-bottom: 1em;
+   }
+
+.floatleft1
+   {
+   float: left;
+   margin-left:5em;
+   margin-right: 5em;
+   }
+ 
+.floatleft2
+   {
+   float: left;
+   margin:2em;
+   margin-top:.5em;
+   margin-left: 5em;
+   }
+   
+.floatright
+   {
+   float: right;
+   margin-left: 1em;
+   margin-right: 1em;
+   }
+
+.floatright img
+   {
+   height: 12.5em;
+   width: 18.75em;   
+   }
+          
+.clear
+   {
+   margin-top: -1em;
+   clear: both;
+   }
+    
+textarea
+   {
+   white-space: nowrap;
+   text-align: left;
+   font-family: monaco, "Bitstream Vera Sans Mono", "Courier New", courier, monospace;
+   font-weight: normal;
+   font-size: small;
+   color:  blue;
+   position: relative;
+   padding-left: 2em;
+   margin-left: 50px;
+   margin-right: 20px;   
+   }
+
+pre
+   {
+   color: #039;
+   background: #EEE;
+   text-align: left;
+   font-family: monaco, "Bitstream Vera Sans Mono", "Courier New", courier, monospace;
+   font-weight: normal;
+   font-size: small;
+   line-height: 1.3;
+   padding: 1% 2%;
+   margin:   1% 2%;
+   border-style: solid;
+   border-width: 2px 2px 1px 2px;
+   border-color: #eee #dfdfdf #666 #ccc;
+   margin-left: 50px;
+   margin-right: 20px;   
+   }
+
+.zoom
+   {
+   width:20em;
+   }
+
+#birdObject
+   {
+   position:absolute;
+   left: -100px;
+   height: 50px;
+   width: 75px;
+   background-image: url("http://sperling.com/js/bird_fly.gif");
+   background-repeat: no-repeat;
+   background-color: transparent;
+   z-index:100;
+   }
+   
+.large
+	{
+	text-decoration: none;
+	font-size: 1.3em;
+	}
+	
+.that_image img		/* just to put a border around an equation in zoom example*/
+	{
+	border-top: 1px solid #dfdfdf !important;	
+	border-left: 1px solid #dfdfdf !important;	
+	border-right: 2px solid #cccccc !important;	
+	border-bottom: 1px solid #666666 !important;	
+	}
+	 
+.tiny
+	{
+	color:#0354c2;
+	font-size: .6em;
+	}
+
+.hide
+	{
+	display: none;
+	font-size: .9em;
+	font-family: arial, helvetica, sans-serif;
+	}
+
+#hide
+	{
+	display: none;
+	font-size: .9em;
+	font-family: arial, helvetica, sans-serif;
+	}
+	
+.simple
+	{
+   list-style: none;
+   margin-left: 1em;;
+   padding: 0;
+   border: none;
+	}
+
+#submit-search
+	{
+	position: relative;
+	top: 7px;
+	left:0;
+	}
+	
+#comment
+	{
+	margin-left: 2em; 
+	font-size: 1em;
+	text-align: left; 
+	background-color: transparent;
+	font-family: arial, helvetica, sans-serif;
+	}
+
+#comment .head
+	{
+	font-size: 1.1em;
+	color:#0354c2;
+	font-family: helvetica, geneva, arial, sans-serif;
+	}
+	
+#comment td
+	{
+	font-size: .9em;
+	}
+	
+#comment .note
+	{
+	margin-left: 2em; 
+	margin-right: 2em; 
+	border-bottom:1px solid silver;
+	padding: 4px;
+	}
+
+#comment .name
+	{
+	margin-left: -2em; 
+	margin-top: 1em; 
+	}
+
+#comment .quote
+	{
+	margin-left: -2em; 
+	margin-top: 1em; 
+	width: 35px;
+	height: 35px;
+	background-image:url(../images/gifs/quotes.gif);
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	}
+
+#comment .my-quote
+	{
+	margin-left: -2em; 
+	margin-top: 1em; 
+	width: 35px;
+	height: 35px;
+	background-image:url(../images/gifs/quotes1.gif);
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	}	
+
+#comment .my-text
+	{
+	font-size: .9em;
+	padding: 2px;
+	margin-top: -2.5em;
+	margin-left: 1em; 
+	color: blue;
+	background-color: #ECFFE5;	/* E5ECFF; */
+	}
+				
+#comment .text
+	{
+	font-size: .9em;
+	padding: 2px;
+	margin-top: -2.5em;
+	margin-left: 1em; 
+	}
+
+#comment .no-comment
+	{
+	color: red;
+	font-size: .9em;
+	margin-left: 1em; 
+	}
+			
+#comment .red
+	{
+	color: red;
+	}	
+		
+.input-comment
+	{
+	margin: 0;
+	padding: 0;
+	}
+
+.title-text
+	{
+	font-size: 1em;
+	color: blue;
+	}
+				 	               
+/* ---=== nav code ===--- */
+
+.navcontainer
+   {   
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: none;
+   background-color: transparent;
+   color: #00ff00;
+   }
+   
+.navcontainer ul
+   {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   border: none;
+   }
+
+.navcontainer li        /* color of lines */
+   {
+   border-bottom: 1px solid #77AAFB;
+   margin: 0;
+   padding: 0;
+   }
+
+.navcontainer li a     /* what it looks like at rest */
+	{
+	text-align: left;
+	display: block;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	padding-left: 2em;
+	background-color: transparent;
+	font-family: "Lucida Grande", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#0000FF;
+	}
+
+.navcontainer li a:hover         /* what it looks like on mouseover */
+	{
+	background-color: #77AAFB;
+	color: white;
+	}
+  
+/* hide fro IE5-Mac  \*/
+* html {height: 1%;}
+/* end of hide */

@@ -1,0 +1,28 @@
+
+				
+		<div id='content' style='margin-top:150px;display:block'>
+			<div class="conteneur" style='display:block'>
+			
+			<form  action="admin.php?page=newmedia" method="post"
+enctype="multipart/form-data"  >
+				
+	
+					<input name="add" value="Ajouter un nouveau media" type='button'onclick="addRowToMediaTable();"/>					
+					<table id='mediaTbl' style='border-collapse;border:1px solid black'>
+						<tr style='border-collapse;border:1px solid black'>
+							<th colspan="3" align='center'>MEDIA</th>
+						</tr>						
+						<tr style='border-collapse;border:1px solid black'>
+						<td>1</td>
+						<td><input type='file' name='mediafile1' size="60" ></td>
+						<td><a href='#' id='1' onclick='removeMediaRow(1);' title="supprimer" style='padding-left:15px;padding-right:5px'><img src='images/false.gif'/></a></td>
+						</tr>
+					</table>
+					
+				<br/>	
+				<td colpsan="2" align="center"><input type="submit" id="envoyer" name="go" value="OK"/>
+			</form>			
+		</div>
+		</div>
+</body>
+</html>

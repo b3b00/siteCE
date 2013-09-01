@@ -1,0 +1,16 @@
+CACHE MANIFEST
+# random string of digits, preferably a version or timestamp
+1375109061
+# cached static resources
+CACHE:
+tarifs.html
+js/controller.js
+images/false.gif
+js/ui-bootstrap-tpls-0.5.0.js
+js/angular.js
+style/bootstrap-combined.min.css
+NETWORK
+
+
+NETWORK:
+# resources to always serve from the network

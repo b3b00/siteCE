@@ -1,0 +1,926 @@
+
+
+
+
+
+
+
+div.item:active {
+	border-width:4px;
+    border-style:solid;
+    border-bottom-color:#ddd;
+    border-right-color:#ddd;
+    border-top-color:#aaa;
+    border-left-color:#aaa;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+	white-space: wrap; 
+	font-family:helvetica;
+	font-weight	: bold;
+	font-size:0.7em;
+	
+	white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+ hyphens:auto;
+}
+
+div.item {
+
+	font-family:helvetica;
+	font-weight	: bold;
+	font-size:0.7em;
+	
+	white-space: wrap; 
+	overflow:hidden; 
+	
+	background-color:#fff;
+    border-width:1px;
+    border-style:solid;
+    border-bottom-color:#aaa;
+    border-right-color:#aaa;
+    border-top-color:#ddd;
+    border-left-color:#ddd;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+
+	width:75px;
+	height:125px;
+	margin-left : 10px;
+	margin-bottom : 15px;
+	line-height:165px;
+	text-align:center;
+	
+/*
+display: inline-block;
+
+	border:1px solid black;
+
+	
+	text-align:center;
+
+
+	
+
+
+
+	margin-bottom : 10px;
+
+
+
+	padding : 0px;	
+
+
+
+	
+
+	border-radius: 15px;
+
+	border : 3px solid ;
+*/
+
+
+}
+
+
+
+
+div.item:after {
+
+
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+@media screen and  (min-width: 800px) { /* 1 seule agne */
+
+
+
+
+
+
+
+	div.item:after {
+
+
+
+
+
+
+
+	} 
+
+
+
+
+	
+
+
+
+	div.c1 {
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		/*color:red;*/
+
+
+
+		clear:none;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c2 {
+
+
+
+		/*color:green;*/
+
+
+
+		float:left;	
+
+
+
+		display:inline;
+
+
+
+		clear:none;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c3 {
+
+
+
+		/*color:blue;*/
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		clear:none;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c4 {
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		/*color:red;*/
+
+
+
+		clear:none;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c5 {
+
+
+
+		/*color:green;*/
+
+
+
+		float:left;	
+
+
+
+		display:inline;
+
+
+
+		clear:none;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c6 {
+
+
+
+		/*color:blue;*/
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		clear:none;
+
+
+
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen  and (min-width: 480px) and (max-width: 799px){ /* 3 colonnes */
+
+
+
+
+
+
+
+	div.item:after {
+
+
+
+		
+
+
+
+	} 
+
+
+
+	
+
+
+
+	div.c1 {
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		/*color:red;*/
+
+
+
+		clear:both;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c2 {
+
+
+
+		/*color:green;*/
+
+
+
+		float:left;	
+
+
+
+		display:inline;
+
+
+
+		clear:none;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c3 {
+
+
+
+		/*color:blue;*/
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		clear:none;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c4 {
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		/*color:red;*/
+
+
+
+		clear:both;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c5 {
+
+
+
+		/*color:green;*/
+
+
+
+		float:left;	
+
+
+
+		display:inline;
+
+
+
+		clear:none;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c6 {
+
+
+
+		/*color:blue;*/
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		clear:none;
+
+
+
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (min-width: 320px) and (max-width: 479px) { /* 2 colonnes */
+
+
+
+
+
+	div.c1 {
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		/*color:red;*/
+
+
+
+		clear:both;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c2 {
+
+
+
+		/*color:green;*/
+
+
+
+		float:left;	
+
+
+
+		display:inline;
+
+
+
+		clear:none;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c3 {
+
+
+
+		/*color:blue;*/
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		clear:both;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c4 {
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		/*color:red;*/
+
+
+
+		clear:none;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c5 {
+
+
+
+		/*color:green;*/
+
+
+
+		float:left;	
+
+
+
+		display:inline;
+
+
+
+		clear:both;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c6 {
+
+
+
+		/*color:blue;*/
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		clear:none;
+
+
+
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+img.button {
+
+
+
+	width:75px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 319px) { /* 1 colonne */
+
+
+
+
+
+
+	div.c1 {
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		color:red;
+
+
+
+		clear:both;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c2 {
+
+
+
+		color:green;
+
+
+
+		float:left;	
+
+
+
+		display:inline;
+
+
+
+		clear:both;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c3 {
+
+
+
+		color:blue;
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		clear:both;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c4 {
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		color:red;
+
+
+
+		clear:both;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c5 {
+
+
+
+		color:green;
+
+
+
+		float:left;	
+
+
+
+		display:inline;
+
+
+
+		clear:both;
+
+
+
+	}
+
+
+
+
+
+
+
+	div.c6 {
+
+
+
+		color:blue;
+
+
+
+		float:left;
+
+
+
+		display:inline;
+
+
+
+		clear:both;
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+img.button {
+
+
+
+	width:75px;
+
+
+
+}
+
+
+
+
