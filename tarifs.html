@@ -15,11 +15,11 @@
 	<script src="js/controller.js"></script>
 	
 	<style>
-		table tr.odd td { background : #84203a;
-			color:white;
+		table tr.odd td { background :  #b8d1f3; /*CadetBlue ;/*#EA546E; *//*#84203a;*/
+			color:DarkSlateGray ;
 /*		#e11836;*/
 		border: 1.5px solid white;}
-		table tr.even td { background : lightgrey; border: 1.5px solid white;} 
+		table tr.even td { background : #dae5f4; border: 1.5px solid white;} 
 		table thead tr td {text-align:center; font-size:medium; background:#999; color:white;border: 1.5px solid white;}
 		
 		table tr.cmdrowodd  td {
@@ -103,7 +103,7 @@
 			</tbody>
 			<tbody>				
 				<tr ng-repeat="(id,p) in items | filter:query" ng-class-odd="'odd'" ng-class-even="'even'" >						
-					<td><p class='itemName'>{{p.label}}</p><p align='right' class='itemInfo'>{{p.info}}</p></td>
+					<td><table width='100%'><tr><td width='50%' style='border:none'><span class='itemName'>{{p.label}}</span></td><td style='border:none'><span align='right' width='50%' class='itemInfo'>{{p.info}}</span></td></tr></table></td>
 					<!--<td >{{p.info}}</td>-->
 					<td >{{p.price}} €</td>
 					<td ><input type="text" ng-change="checkInteger(p)" style="width:30px" ng-model="p.quantity" ></input></td>

@@ -20,7 +20,7 @@
 
 			$http.get('prices.json.php').success(function (data) {
 				console.log(data);
-				$scope.prices = data;    
+				$scope.prices = data.prices;    
 				$scope.activeTab = new Array();
 				$scope.activeTab[0] = true;
 				for (i = 1; i < data.length; i++) {
