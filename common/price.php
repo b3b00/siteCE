@@ -85,7 +85,9 @@ class Price {
 category)."',".$this->price.")";
 
 		$result = mysql_query($query);
-		if ($result) {		
+
+		if ($result) {
+
 		}
 		else {
 		}		
@@ -101,7 +103,9 @@ category)."',".$this->price.")";
 							category='".$this->category."' ,							
 							where label='".addslashes($this->getLabel())."' and info='".addslashes($this->getInfo())."'";		
 		$result = mysql_query($query);
-		if ($result) {		
+
+		if ($result) {	
+	
 		}
 		else {
 		}		
@@ -120,6 +124,7 @@ category)."',".$this->price.")";
 		else {
 			$this->save($config);
 		}
+Price::setLastUpdate();		
 		
 	}
 	
@@ -160,10 +165,12 @@ category)."',".$this->price.")";
 		$result = mysql_query($query);
 		if ($result) {	
 		    echo"<b style='color:red'>all done OK</b><br>";	
+
 		}
 		else {
 		 echo"<b style='color:red'>". mysql_error($result)."</b><br>";	
 		}
+         Price::setLastUpdate();		
 	}
 
 
@@ -171,6 +178,7 @@ static function addPrice($config,$label,$info,$cat,$price) {
    $price = new Price(0, $label, $info, $cat, $price);
    connectDB($config);	
    $price->save($config);
+   Price::setLastUpdate();	
 }
 
 static function delPrice($config,$id) {
@@ -178,15 +186,34 @@ static function delPrice($config,$id) {
    connectDB($config);	
  $query = "delete from price where id='".$id."'";		
 		$result = mysql_query($query);
+Price::setLastUpdate();
 }
 
 static function clearAll($config) {
 		connectDB($config);
 		$query="delete from price";
 		$result = mysql_query($query);
+Price::setLastUpdate();
 	}
-	
+
+static function setLastUpdate() {      
+	$content = time()."";
+       $result = file_put_contents ( "./lastPriceUpdate.dat",$content);
+       if ($result === FALSE) {
+        die("error writing file ./lastPriceUpdate.dat");
+}
 }
 
+static function getLastUpdate() {
+	if (file_exists("./lastPriceUpdate.dat")) {
+	     return file_get_contents ( "./lastPriceUpdate.dat" );
+	}
+	else {
+	    return time()."";
+	}
+}
 
-?>					
+} // class
+
+
+?>															

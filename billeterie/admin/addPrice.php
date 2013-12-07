@@ -29,7 +29,7 @@ $fp = fopen("billetmanifest.txt", "w");
 
 fputs ($fp, "CACHE MANIFEST\n");
 fputs ($fp, "# random string of digits, preferably a version or timestamp\n");
-fputs ($fp, $date->getTimestamp()."\n");
+fputs ($fp, time()."\n");
 fputs ($fp, "# cached static resources\n");
 fputs ($fp, "CACHE:\n");
 fputs ($fp, "index.php\n");
